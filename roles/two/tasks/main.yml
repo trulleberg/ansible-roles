@@ -1,0 +1,5 @@
+---
+# tasks file for two
+- name: Debug
+  ansible.builtin.debug:
+    msg:                  "Debug from role {{role_path|basename}}"
